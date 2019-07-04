@@ -3,7 +3,7 @@ import Foundation
 class Entry: Codable
 {
     var title:   String = "Hello"
-    var content: String = ""
+    var content: String = "There"
     
     var id: String = UUID().uuidString
     
