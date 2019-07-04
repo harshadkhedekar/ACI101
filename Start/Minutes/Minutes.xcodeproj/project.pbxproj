@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		C7AF384622CE08B9004431EE /* MinutesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AF384522CE08B9004431EE /* MinutesTests.swift */; };
+		C7AF385622CE114A004431EE /* AppCenterPush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7AF384E22CE113F004431EE /* AppCenterPush.framework */; };
+		C7AF385722CE114A004431EE /* AppCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7AF384F22CE1141004431EE /* AppCenter.framework */; };
+		C7AF385822CE114A004431EE /* AppCenterAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7AF385022CE1144004431EE /* AppCenterAuth.framework */; };
+		C7AF385922CE114A004431EE /* AppCenterDistributeResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C7AF385122CE1145004431EE /* AppCenterDistributeResources.bundle */; };
+		C7AF385A22CE114A004431EE /* AppCenterDistribute.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7AF385222CE1145004431EE /* AppCenterDistribute.framework */; };
+		C7AF385B22CE114A004431EE /* AppCenterAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7AF385322CE1146004431EE /* AppCenterAnalytics.framework */; };
+		C7AF385C22CE114A004431EE /* AppCenterData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7AF385422CE1148004431EE /* AppCenterData.framework */; };
+		C7AF385D22CE114A004431EE /* AppCenterCrashes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7AF385522CE114A004431EE /* AppCenterCrashes.framework */; };
 		D3048F28202E2B2D00D45D7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3048F27202E2B2D00D45D7E /* AppDelegate.swift */; };
 		D3048F2D202E2B2D00D45D7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3048F2B202E2B2D00D45D7E /* Main.storyboard */; };
 		D3048F2F202E2B2D00D45D7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3048F2E202E2B2D00D45D7E /* Assets.xcassets */; };
@@ -32,6 +40,14 @@
 		C7AF384322CE08B9004431EE /* MinutesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinutesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7AF384522CE08B9004431EE /* MinutesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinutesTests.swift; sourceTree = "<group>"; };
 		C7AF384722CE08B9004431EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7AF384E22CE113F004431EE /* AppCenterPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCenterPush.framework; sourceTree = "<group>"; };
+		C7AF384F22CE1141004431EE /* AppCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCenter.framework; sourceTree = "<group>"; };
+		C7AF385022CE1144004431EE /* AppCenterAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCenterAuth.framework; sourceTree = "<group>"; };
+		C7AF385122CE1145004431EE /* AppCenterDistributeResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AppCenterDistributeResources.bundle; sourceTree = "<group>"; };
+		C7AF385222CE1145004431EE /* AppCenterDistribute.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCenterDistribute.framework; sourceTree = "<group>"; };
+		C7AF385322CE1146004431EE /* AppCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCenterAnalytics.framework; sourceTree = "<group>"; };
+		C7AF385422CE1148004431EE /* AppCenterData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCenterData.framework; sourceTree = "<group>"; };
+		C7AF385522CE114A004431EE /* AppCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCenterCrashes.framework; sourceTree = "<group>"; };
 		D3048F24202E2B2D00D45D7E /* Minutes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minutes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3048F27202E2B2D00D45D7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3048F2C202E2B2D00D45D7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,6 +72,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7AF385622CE114A004431EE /* AppCenterPush.framework in Frameworks */,
+				C7AF385D22CE114A004431EE /* AppCenterCrashes.framework in Frameworks */,
+				C7AF385822CE114A004431EE /* AppCenterAuth.framework in Frameworks */,
+				C7AF385A22CE114A004431EE /* AppCenterDistribute.framework in Frameworks */,
+				C7AF385722CE114A004431EE /* AppCenter.framework in Frameworks */,
+				C7AF385B22CE114A004431EE /* AppCenterAnalytics.framework in Frameworks */,
+				C7AF385C22CE114A004431EE /* AppCenterData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,9 +94,25 @@
 			path = MinutesTests;
 			sourceTree = "<group>";
 		};
+		C7AF384D22CE1108004431EE /* AppCenter */ = {
+			isa = PBXGroup;
+			children = (
+				C7AF384F22CE1141004431EE /* AppCenter.framework */,
+				C7AF385322CE1146004431EE /* AppCenterAnalytics.framework */,
+				C7AF385022CE1144004431EE /* AppCenterAuth.framework */,
+				C7AF385522CE114A004431EE /* AppCenterCrashes.framework */,
+				C7AF385422CE1148004431EE /* AppCenterData.framework */,
+				C7AF385222CE1145004431EE /* AppCenterDistribute.framework */,
+				C7AF385122CE1145004431EE /* AppCenterDistributeResources.bundle */,
+				C7AF384E22CE113F004431EE /* AppCenterPush.framework */,
+			);
+			path = AppCenter;
+			sourceTree = "<group>";
+		};
 		D3048F1B202E2B2D00D45D7E = {
 			isa = PBXGroup;
 			children = (
+				C7AF384D22CE1108004431EE /* AppCenter */,
 				D3048F26202E2B2D00D45D7E /* Minutes */,
 				C7AF384422CE08B9004431EE /* MinutesTests */,
 				D3048F25202E2B2D00D45D7E /* Products */,
@@ -160,7 +199,7 @@
 					};
 					D3048F23202E2B2D00D45D7E = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -198,6 +237,7 @@
 				D3048F32202E2B2D00D45D7E /* LaunchScreen.storyboard in Resources */,
 				D3048F2F202E2B2D00D45D7E /* Assets.xcassets in Resources */,
 				D3048F2D202E2B2D00D45D7E /* Main.storyboard in Resources */,
+				C7AF385922CE114A004431EE /* AppCenterDistributeResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,12 +446,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B8MKEJ9N9F;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AppCenter",
+				);
 				INFOPLIST_FILE = Minutes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.Minutes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -421,12 +466,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B8MKEJ9N9F;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AppCenter",
+				);
 				INFOPLIST_FILE = Minutes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.Minutes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

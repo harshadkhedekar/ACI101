@@ -41,5 +41,14 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+            <array>
+                <string>appcenter-3b88f7d3-eeed-4515-9880-8e138fd7198a</string>
+            </array>
+		</dict>
+	</array>
 </dict>
 </plist>
