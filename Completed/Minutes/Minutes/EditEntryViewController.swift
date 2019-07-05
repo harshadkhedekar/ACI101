@@ -17,6 +17,7 @@ class EditEntryViewController: UIViewController
     
     override func viewDidLoad()
     {
+        MSAnalytics.trackEvent("My custom event")
         let saveButton = UIBarButtonItem(barButtonSystemItem: .save, target: self, action: #selector(EditEntryViewController.onSave))
 
         navigationItem.rightBarButtonItem = saveButton
