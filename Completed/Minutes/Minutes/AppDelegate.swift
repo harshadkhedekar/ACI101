@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate
         //
         // Replace the string below with your app secret
         //
-        MSAppCenter.start("be17a075-6ad8-44af-9bab-58037e555397", withServices: [MSDistribute.self, MSCrashes.self, MSAnalytics.self, MSPush.self])
+        MSAppCenter.start("3b88f7d3-eeed-4515-9880-8e138fd7198a", withServices: [MSDistribute.self, MSCrashes.self, MSAnalytics.self, MSPush.self])
         
         return true
     }
